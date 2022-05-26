@@ -34,6 +34,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Migrate checkout line id from int to UUID - #9675 by @IKarbowiak
   - Changed the checkout line `id` from `int` to `UUID`, the old ids still can be used
   for old checkout lines.
+- Add webhooks `PAGE_TYPE_CREATED`, `PAGE_TYPE_UPDATED` and `PAGE_TYPE_DELETED` - #9859 by @SzymJ
 
 # 3.3.1
 
